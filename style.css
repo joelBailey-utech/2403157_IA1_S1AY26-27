@@ -386,6 +386,14 @@ text-align: center;
 }
 
 .profile-pic img {
+    width: 160px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    transform: rotate(90deg);
+}
+.profile-pic img {
 width: 100%;
 max-width: 250px;
 height: auto;
