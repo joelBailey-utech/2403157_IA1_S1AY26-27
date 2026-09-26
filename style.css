@@ -367,3 +367,36 @@ hr {
         white-space: nowrap;
     }
 }
+/* Quick Links + Student ID */
+.top-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+margin-bottom: 20px;
+}
+
+/* Keep cards aligned */
+.top-grid .card {
+margin-bottom: 0;
+}
+
+/* Student ID */
+.profile-pic {
+text-align: center;
+}
+
+.profile-pic img {
+width: 100%;
+max-width: 250px;
+height: auto;
+display: block;
+margin: 0 auto;
+border-radius: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+.top-grid {
+grid-template-columns: 1fr;
+}
+}
